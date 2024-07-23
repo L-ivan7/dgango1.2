@@ -57,5 +57,5 @@ def home_view(request):
     all_recipes = list(DATA.keys())
     context = {'all_recipes': all_recipes}
 
-    return render(request, template_name='home/home.html', context=context)
+    return render(request, template_name='calculator/home.html', context=context)
 
